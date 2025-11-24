@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+<listeners>
+<listener class-name="com.qa.w3.ExtentReportListner.ExtentReporterListner"></listener>
+</listeners>
+   <test name="ToolsQA" >
+       <classes> 
+         
+          <class name="com.w3.qa.testcases.LoginPageTest" />
+          <class name="com.w3.qa.testcases.ProfilePageTest" />
+           <class name="com.w3.qa.testcases.WebTablePageTest"/>
+       </classes>
+   </test>
+ </suite>

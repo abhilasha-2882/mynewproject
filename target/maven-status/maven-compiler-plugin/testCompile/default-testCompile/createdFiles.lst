@@ -1,0 +1,4 @@
+com\w3\qa\testcases\SignUpTest.class
+com\w3\qa\testcases\LoginPageTest.class
+com\w3\qa\testcases\WebTablePageTest.class
+com\w3\qa\testcases\ProfilePageTest.class
