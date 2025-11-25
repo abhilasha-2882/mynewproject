@@ -10,7 +10,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="validateLoginfailure"/>
+          <include name="validateLoginSuccess"/>
         </methods>
       </class> <!-- com.w3.qa.testcases.LoginPageTest -->
     </classes>

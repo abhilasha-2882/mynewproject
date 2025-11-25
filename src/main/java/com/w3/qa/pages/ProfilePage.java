@@ -27,7 +27,7 @@ public class ProfilePage extends TestBase {
 	{
 		String userlabelnamebval=usernamelabelvalue.getText();
 		return userlabelnamebval;
-	}
+	} 
    public WebTablePage  clickOnElementlink(String linktext)
    {
 	   elementlink.click();

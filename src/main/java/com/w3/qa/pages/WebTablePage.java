@@ -33,7 +33,7 @@ public class WebTablePage extends TestBase{
 	
 	WebTablePage()
 	{
-		PageFactory.initElements(e_driver, this);
+		PageFactory.initElements(e_driver, this); 
 	}
 	
 	public Boolean verifyWebtableLabel()

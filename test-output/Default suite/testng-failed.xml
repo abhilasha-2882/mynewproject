@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.w3.qa.testcases.WebTablePageTest">
+      <class name="com.w3.qa.testcases.LoginPageTest">
         <methods>
-          <include name="validateRecordpresentTest"/>
-          <include name="verifyWebtableLabelTest"/>
-          <include name="setUp"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyfillRegistrationPageTest"/>
+          <include name="validateLoginSuccess"/>
         </methods>
-      </class> <!-- com.w3.qa.testcases.WebTablePageTest -->
+      </class> <!-- com.w3.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

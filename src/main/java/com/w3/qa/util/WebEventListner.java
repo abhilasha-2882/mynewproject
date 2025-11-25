@@ -24,7 +24,7 @@ public class WebEventListner  extends TestBase implements WebDriverListener {
     public void beforeNavigateTo(String url, WebDriver driver) {
         System.out.println("Before navigating to: " + url);
     }
-
+ 
    
     public void afterNavigateTo(String url, WebDriver driver) {
         System.out.println("After navigating to: " + url);
@@ -44,7 +44,7 @@ public class WebEventListner  extends TestBase implements WebDriverListener {
         System.out.println("Before navigating forward");
     }
 
-    
+   
     public void afterNavigateForward(WebDriver driver) {
         System.out.println("After navigating forward");
     }

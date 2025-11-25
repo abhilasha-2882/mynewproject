@@ -1,207 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-23T17:49:55 IST" name="Test-Suite" finished-at="2025-11-23T17:52:13 IST" duration-ms="138229">
+  <suite started-at="2025-11-25T17:50:01 IST" name="Default suite" finished-at="2025-11-25T17:50:25 IST" duration-ms="23737">
     <groups>
     </groups>
-    <test started-at="2025-11-23T17:49:55 IST" name="ToolsQA" finished-at="2025-11-23T17:52:13 IST" duration-ms="138229">
-      <class name="com.w3.qa.testcases.WebTablePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:50:58 IST" name="setUp" finished-at="2025-11-23T17:51:19 IST" duration-ms="21163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyWebtableLabelTest()[pri:1, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:19 IST" name="verifyWebtableLabelTest" finished-at="2025-11-23T17:51:19 IST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWebtableLabelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:19 IST" name="tearDown" finished-at="2025-11-23T17:51:20 IST" duration-ms="371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:21 IST" name="setUp" finished-at="2025-11-23T17:51:29 IST" duration-ms="8595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyfillRegistrationPageTest(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.String)[pri:2, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:29 IST" name="verifyfillRegistrationPageTest" data-provider="getw3TestData" finished-at="2025-11-23T17:51:30 IST" duration-ms="921" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abhilasha]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ varsheny]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[abhillasha.varshney@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1200]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[IT]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyfillRegistrationPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:30 IST" name="tearDown" finished-at="2025-11-23T17:51:30 IST" duration-ms="441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:30 IST" name="setUp" finished-at="2025-11-23T17:51:47 IST" duration-ms="16854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyfillRegistrationPageTest(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.String)[pri:2, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:47 IST" name="verifyfillRegistrationPageTest" data-provider="getw3TestData" finished-at="2025-11-23T17:51:48 IST" duration-ms="909" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ajay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ajay.kumar@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[55]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1500]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Electronics and Communication]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyfillRegistrationPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:48 IST" name="tearDown" finished-at="2025-11-23T17:51:49 IST" duration-ms="336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:51:49 IST" name="setUp" finished-at="2025-11-23T17:52:01 IST" duration-ms="12567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyfillRegistrationPageTest(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.String)[pri:2, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:52:01 IST" name="verifyfillRegistrationPageTest" data-provider="getw3TestData" finished-at="2025-11-23T17:52:02 IST" duration-ms="1109" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Elen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hank]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[elen.hank@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[5500]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Electrical]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyfillRegistrationPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:52:02 IST" name="tearDown" finished-at="2025-11-23T17:52:03 IST" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:52:03 IST" name="setUp" finished-at="2025-11-23T17:52:10 IST" duration-ms="7805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateRecordpresentTest()[pri:3, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:52:10 IST" name="validateRecordpresentTest" finished-at="2025-11-23T17:52:12 IST" duration-ms="1984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateRecordpresentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.WebTablePageTest@139982de]" started-at="2025-11-23T17:52:12 IST" name="tearDown" finished-at="2025-11-23T17:52:13 IST" duration-ms="503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.w3.qa.testcases.WebTablePageTest -->
+    <test started-at="2025-11-25T17:50:01 IST" name="Default test" finished-at="2025-11-25T17:50:25 IST" duration-ms="23737">
       <class name="com.w3.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.w3.qa.testcases.LoginPageTest@411f53a0]" started-at="2025-11-23T17:49:55 IST" name="setup" finished-at="2025-11-23T17:50:10 IST" duration-ms="15568" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.w3.qa.testcases.LoginPageTest@3bb9a3ff]" started-at="2025-11-25T17:50:01 IST" name="setup" finished-at="2025-11-25T17:50:11 IST" duration-ms="9955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginSuccess()[pri:1, instance:com.w3.qa.testcases.LoginPageTest@411f53a0]" started-at="2025-11-23T17:50:10 IST" name="validateLoginSuccess" finished-at="2025-11-23T17:50:12 IST" duration-ms="2085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.LoginPageTest@411f53a0]" started-at="2025-11-23T17:50:12 IST" name="tearDown" finished-at="2025-11-23T17:50:13 IST" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.w3.qa.testcases.LoginPageTest@411f53a0]" started-at="2025-11-23T17:50:13 IST" name="setup" finished-at="2025-11-23T17:50:18 IST" duration-ms="4780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validateLoginfailure()[pri:2, instance:com.w3.qa.testcases.LoginPageTest@411f53a0]" started-at="2025-11-23T17:50:18 IST" name="validateLoginfailure" finished-at="2025-11-23T17:50:28 IST" duration-ms="10701" status="FAIL">
+        <test-method signature="validateLoginSuccess()[pri:1, instance:com.w3.qa.testcases.LoginPageTest@3bb9a3ff]" started-at="2025-11-25T17:50:11 IST" name="validateLoginSuccess" finished-at="2025-11-25T17:50:25 IST" duration-ms="13294" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "profile". Current url: "https://demoqa.com/login" (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='userName'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$VedugSpa
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\ABHILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51586}, goog:processID: 992848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51586/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49a893192f0678cb810d8798c48b281c]]>
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$zEYrseZd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\ABHILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59881}, goog:processID: 1318820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59881/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc2ee2dba89ba80a9ce5ce46a65e4080]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "profile". Current url: "https://demoqa.com/login" (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='userName'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$VedugSpa
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\ABHILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51586}, goog:processID: 992848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51586/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49a893192f0678cb810d8798c48b281c
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$zEYrseZd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\ABHILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59881}, goog:processID: 1318820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59881/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc2ee2dba89ba80a9ce5ce46a65e4080
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.w3.qa.pages.LoginPage.currentURL(LoginPage.java:46)
-at com.w3.qa.testcases.LoginPageTest.validateLoginfailure(LoginPageTest.java:46)
+at com.w3.qa.pages.LoginPage.login(LoginPage.java:34)
+at com.w3.qa.testcases.LoginPageTest.validateLoginSuccess(LoginPageTest.java:53)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -233,26 +63,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginfailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.LoginPageTest@411f53a0]" started-at="2025-11-23T17:50:28 IST" name="tearDown" finished-at="2025-11-23T17:50:29 IST" duration-ms="480" status="PASS">
+        </test-method> <!-- validateLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.LoginPageTest@3bb9a3ff]" started-at="2025-11-25T17:50:25 IST" name="tearDown" finished-at="2025-11-25T17:50:25 IST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.w3.qa.testcases.LoginPageTest -->
-      <class name="com.w3.qa.testcases.ProfilePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w3.qa.testcases.ProfilePageTest@385c9627]" started-at="2025-11-23T17:50:29 IST" name="setUp" finished-at="2025-11-23T17:50:53 IST" duration-ms="24542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateusernamelabel()[pri:0, instance:com.w3.qa.testcases.ProfilePageTest@385c9627]" started-at="2025-11-23T17:50:53 IST" name="validateusernamelabel" finished-at="2025-11-23T17:50:58 IST" duration-ms="4230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateusernamelabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w3.qa.testcases.ProfilePageTest@385c9627]" started-at="2025-11-23T17:50:58 IST" name="tearDown" finished-at="2025-11-23T17:50:58 IST" duration-ms="444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.w3.qa.testcases.ProfilePageTest -->
-    </test> <!-- ToolsQA -->
-  </suite> <!-- Test-Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

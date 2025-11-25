@@ -3,6 +3,7 @@ package com.w3.qa.pages;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -15,21 +16,22 @@ import com.w3.qa.base.TestBase;
 
 public class LoginPage extends TestBase{
 
-	@FindBy(xpath="//input[@placeholder='UserName']")
+	@FindBy(xpath="//input[@id='userName']")
 	@CacheLookup
     WebElement username;
-	@FindBy(xpath="//input[@placeholder='Password']")
+	@FindBy(xpath="//input[@id='password']")
     WebElement password;
 	@FindBy(xpath="//button[contains(text(),'Login')]")
 	WebElement loginButton;
 	
-	public LoginPage()
+	public LoginPage() 
 	{
 		PageFactory.initElements(e_driver, this);
 	}
    public ProfilePage login(String eusername, String epassword)
    {
-	  
+	   WebDriverWait wait = new WebDriverWait(e_driver, Duration.ofSeconds(10));
+	   wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='userName']")));
 	   username.sendKeys(eusername);
 	   password.sendKeys(epassword);
 	   JavascriptExecutor js=(JavascriptExecutor)e_driver;

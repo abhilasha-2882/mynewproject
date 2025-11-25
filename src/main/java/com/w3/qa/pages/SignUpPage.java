@@ -37,7 +37,7 @@ public class SignUpPage extends TestBase{
 	public SignUpPage()
 	{
 		PageFactory.initElements(driver, this);
-	}
+	} 
 	
 	
 	public String Signup(String efirstname, String elastname, String eusername, String epassword)

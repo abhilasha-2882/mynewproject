@@ -20,7 +20,7 @@ public class SignUpTest extends TestBase{
 	public void setUp()
 	{
 		initialization();
-		signuppage=new SignUpPage();
+		signuppage=new SignUpPage(); 
 		
 	}
 	
